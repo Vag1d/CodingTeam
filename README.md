@@ -9,7 +9,7 @@
 6) Для загрузки fixtures перейдите в директорию CodingTeam/ и выполните команду load_fixtures.sh
 7) Прейдите по адресу http://127.0.0.1:8000/api/v1/foods/
   
-![img](README/result.PNG)
+![img](README/result.png)
 
 
 
