@@ -1,0 +1,108 @@
+[
+  {
+    "model": "mainapp.foodcategory",
+    "pk": 1,
+    "fields": {
+      "name_ru": "Напитки"
+    }
+  },
+    {
+    "model": "mainapp.foodcategory",
+    "pk": 2,
+    "fields": {
+      "name_ru": "Выпечка",
+      "order_id":20
+    }
+  },
+  {
+    "model": "mainapp.food",
+    "pk": 1,
+    "fields": {
+      "internal_code": 100,
+      "code": 1,
+      "name_ru": "Чай",
+      "description_ru":"Чай 100 гр",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "cost": 123.00,
+      "is_publish": true,
+      "additional": [2,2]
+    }
+  },
+    {
+    "model": "mainapp.food",
+    "pk": 2,
+    "fields": {
+      "internal_code": 200,
+      "code": 1,
+      "name_ru": "Кола",
+      "description_ru":"Кола",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "cost": 123.00,
+      "is_publish": true
+    }
+  },
+    {
+    "model": "mainapp.food",
+    "pk": 3,
+    "fields": {
+      "internal_code": 300,
+      "code": 1,
+      "name_ru": "Спрайт",
+      "description_ru":"Спрайт",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "cost": 123.00,
+      "is_publish": true
+    }
+  },
+      {
+    "model": "mainapp.food",
+    "pk": 4,
+    "fields": {
+    "internal_code": 400,
+      "code": 1,
+      "name_ru": "Байкал",
+      "description_ru":"Байкал",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "cost": 123.00,
+      "is_publish": true
+    }
+  },
+      {
+    "model": "mainapp.food",
+    "pk": 5,
+    "fields": {
+       "internal_code": 500,
+      "code": 1,
+      "name_ru": "Булочки",
+      "description_ru":"Булочки",
+      "category": 2,
+      "is_vegan": false,
+      "is_special": false,
+      "cost": 123.00,
+      "is_publish": true
+    }
+  },
+  {
+    "model": "mainapp.food",
+    "pk": 6,
+    "fields": {
+       "internal_code": 600,
+      "code": 1,
+      "name_ru": "Кексы",
+      "description_ru":"Кексы",
+      "category": 2,
+      "is_vegan": false,
+      "is_special": false,
+      "cost": 123.00,
+      "is_publish": false
+    }
+  }
+]
