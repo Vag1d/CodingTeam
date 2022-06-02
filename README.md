@@ -8,6 +8,7 @@
 5) Для запуска приложения введите python manage.py runserver or python3 manage.py runserver
 6) Для загрузки fixtures перейдите в директорию CodingTeam/ и выполните команду load_fixtures.sh
 7) Прейдите по адресу http://127.0.0.1:8000/api/v1/foods/
+8) Для запуска тестов используйте команду python manage.py test
   
 ![img](README/result.png)
 
